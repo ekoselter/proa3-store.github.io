@@ -42,3 +42,37 @@ p{
 body{
 	width: 100%;
 }
+
+
+#hero {
+    background-image: url(img/hero4.png);
+    height: 90vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0 80px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h1 {
+    color: #088178;
+}
+
+#hero h4 {
+    padding-bottom: 15px;
+}
+
+#hero button {
+	background-image: url("img/button.png");
+	background-color: transparent;
+	color: #088178;
+	border: 0px;
+	padding: 14px 80px 14px 65px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 15px;
+}
