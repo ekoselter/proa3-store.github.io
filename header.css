@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background: #F6442E;
+    height: 200px ;
+}
+.header .container {
+    padding: 15px;
+    color: #fff;
+}
+.header .container .menu-kiri {
+    float: left;
+}
+.header .container a{
+    text-decoration:none;
+    color: #fff;
+}
+.header .container .menu-kanan {
+    float: right;
+}
+.header .container .menu-tengah{
+    margin: 50px 30px 30px 50px;
+    /* text-align: center; */
+    border: 1px solid blue;
+}
+/* .header .container .menu-tengah .logo{
+    text-align: center;
+} */
+.header .container .menu-tengah .logo span{
+    font-size: 20px;
+    border: 1px solid blue;
+}
+.header .container .menu-tengah .logo{
+    width: 40%;
+}
+.header .container .menu-tengah .input{
+    width: 60%;
+    position: relative;
+}
+.header .container .menu-tengah input{
+    width: 100%;
+    font-size: 15px;
+    padding: 5px 0 5px 5px;
+}
+.header .container .menu-tengah button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 60px;
+    border: 1px solid red;
+}
+.header .container .menu-tengah img{
+    height: 60px;
+    border: 1px solid blue;
+}
