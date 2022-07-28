@@ -76,3 +76,18 @@ body{
 	font-weight: 700;
 	font-size: 15px;
 }
+
+.footer-container {
+	background-color:#192a56;
+}
+.footer-left {
+	float:left;
+	width:50%;
+}
+.footer-right{
+	float:right;
+	width:50%;
+}
+.txt-orange {
+	color:orange;	
+}
