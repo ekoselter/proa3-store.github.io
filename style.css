@@ -284,13 +284,17 @@ button.white {
     height: 400px;
 }
 
+.features-container{
+    display: flex;
+}
+
 .feature-items{
     border: 1px solid #ddd;
     padding: 20px 20px;
-    margin: 20px 60px;
+    flex: auto;
+    margin: 0 10px;
     width: 170px;
     height: 200px;
-    float: left;
     text-align: center;
 }
 
