@@ -12,12 +12,6 @@ body {
 .clear_menu {
     clear: right;
 }
-/* .header {
-    width: 100%;
-    background-color: #eff1fa;
-    margin: 0 auto;
-    border-bottom: 1px solid #fff;
-} */
 
 .header .top {   
     /* max-width: 1170px; */
@@ -27,6 +21,7 @@ body {
     background-color: #eff1fa;
     margin: 0 auto 100px auto ;
     border-bottom: 1px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
 .header .container {
     padding: 10px 50px;
@@ -34,12 +29,12 @@ body {
 .container .kiri {
     float: left;
     width: 40%;
-    padding: 5px 0
+    padding: 5px 0px;
 }
 .container .kanan {
     float: right;
     width: 60%;
-    padding: 18px 0
+    padding: 18px 0;
 }
 .container .kanan img {
     width: 14px;
