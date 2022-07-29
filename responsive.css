@@ -1,0 +1,66 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .features{
+        text-align: center;
+        display: none;
+    }
+    .feature-items {
+        width: 50%;
+    }
+
+    #produk1 .pro {
+        width: 50%;
+    }
+
+    #sm-banner .banner-box {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #banner3 .banner-box {
+        width: 50%;
+    }
+
+    .footer-container{
+        height: 200px;
+    }
+
+    .footer-left, .footer-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+  
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    .features{
+        text-align: center;
+        display: none;
+    }
+    .feature-items {
+        width: 50%;
+    }
+
+    #produk1 .pro {
+        width: 100%;
+    }
+
+    #sm-banner .banner-box {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    .footer-container{
+        height: 200px;
+    }
+
+    .footer-left, .footer-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+  
