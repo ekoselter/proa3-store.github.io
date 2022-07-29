@@ -1,0 +1,133 @@
+/* For Tablets */
+@media all and (max-width: 1000px) {
+    .features{
+        text-align: center;
+        display: none;
+    }
+    .feature-items {
+        width: 50%;
+    }
+
+    .feature-items span {
+        font-size: 8px;
+    }
+
+    #produk1 .pro {
+        width: 50%;
+    }
+
+    #sm-banner .banner-box {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    #banner3 .banner-box {
+        width: 50%;
+    }
+
+    .footer-container{
+        height: 200px;
+    }
+
+    .footer-left, .footer-right{
+        width: 100%;
+        text-align: center;
+    }
+}
+  
+/* For Smartphones */
+@media all and (max-width: 670px) {
+    h1{
+        font-size: 32px;
+        line-height: 48px;
+        color: #222;
+    }
+    
+    h2{
+        font-size: 24px;
+        line-height: 36px;
+        color: #222;
+    }
+
+    h3{
+        font-size: 18px;
+        line-height: 36px;
+        color: #222;
+    }
+    
+    h4{
+        font-size: 16px;
+        color: #222;
+    }
+    
+    h6{
+        font-weight: 700;
+        font-size: 8px;
+    }
+    p{
+        font-size: 12px;
+    }
+
+    #hero {
+        background-image: url(img/hero4.png);
+        background-repeat: no-repeat;
+        /* background-size: auto; */
+        height: 80vh;
+        width: 100%;
+        background-position: top 25% right -240px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 80px;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    .section-p1, #banner3{
+        padding: 20px 40px;
+    }
+
+    .features{
+        text-align: center;
+        display: none;
+    }
+    .feature-items {
+        width: 50%;
+    }
+
+    #produk1 .pro {
+        width: 100%;
+    }
+
+    #sm-banner .banner-box {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #banner3 .banner-box {
+        width: 100%;
+    }
+
+    .footer-container{
+        height: 200px;
+        padding-top: 0;
+    }
+
+    .footer-left, .footer-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer-left h3 {
+        font-size: 18px;
+    }
+
+    .footer-left p {
+        font-size: 12px;
+    }
+
+    .input-email ,.submit {
+        width: 100%;
+        border-radius: 4px;
+    }
+}
+  
