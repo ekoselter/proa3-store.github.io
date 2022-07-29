@@ -131,6 +131,36 @@ body{
     cursor: pointer;
 }
 
+.features{
+    padding: 30px 80px;
+    height: 120px;
+    text-align: center;
+    height: 400px;
+}
+
+.feature-items{
+    border: 1px solid #ddd;
+    padding: 20px 20px;
+    margin: 20px 60px;
+    width: 170px;
+    height: 200px;
+    float: left;
+    text-align: center;
+}
+
+.feature-items span {
+    background-color: #cce7d0;
+    padding: 10px 15px;
+    border-radius: 4px;
+    color: #465b52;
+}
+
+.feature-icon {
+    font-size: 100px !important;
+    margin-bottom: 20px;
+    color: #22a6b3;
+}
+
 .footer-container{
     color:#fff;
 	background-color:#192a56;
