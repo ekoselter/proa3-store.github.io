@@ -76,10 +76,10 @@ body {
 
 @media (max-width: 470px) {
     .container .kiri {
-        width: 70%;
+        width: 60%;
     }
     .container .kanan {
-        width: 30%;
+        width: 40%;
     }
     .header {
         text-align: center;
