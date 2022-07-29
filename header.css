@@ -13,16 +13,19 @@ body {
     clear: right;
 }
 /* .header {
-    position: fixed;
-    z-index: 10;
     width: 100%;
+    background-color: #eff1fa;
+    margin: 0 auto;
+    border-bottom: 1px solid #fff;
 } */
 
 .header .top {   
     /* max-width: 1170px; */
+    position: fixed;
+    z-index: 10;
     width: 100%;
     background-color: #eff1fa;
-    margin: 0 auto;
+    margin: 0 auto 100px auto ;
     border-bottom: 1px solid #fff;
 }
 .header .container {
